@@ -7,6 +7,6 @@ import {
 const router = express.Router();
 
 router.get("/", getProducts);
-router.post("/", createProduct); // POST для додавання товару
+router.post("/", createProduct);
 
 export default router;
